@@ -85,6 +85,51 @@ const Header = () => {
           </div>
         </div>
       </header>
+      <header className="header-bottom py-3">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="menu-bottom d-flex align-items-center gap-15">
+                <div>
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img src="images/menu.svg" alt="" width={30} height={30}/>
+                      <span className="me-5 d-inline-block">Shop Categories</span>
+                    </button>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <Link className="dropdown-item text-white" to="#">
+                        Action
+                      </Link>
+                      <Link className="dropdown-item text-white" to="#">
+                        Another action
+                      </Link>
+                      <Link className="dropdown-item text-white" to="#">
+                        Something else here
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="menu-links">
+                  <div className="d-flex align-items-center gap-15">
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/">Our Store</NavLink>
+                    <NavLink to="/">Blogs</NavLink>
+                    <NavLink to="/">Contact</NavLink>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
     </>
   );
 };
