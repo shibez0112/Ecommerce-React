@@ -16,6 +16,12 @@ a {
   text-decoration: none;
   display: inline-block;
 }
+
+/* Change svg icon from black to white */
+.img-filter {
+  filter: invert(1);
+}
+
 .form-control:focus {
   box-shadow: none;
   border-color: inherit;
@@ -33,7 +39,7 @@ a {
 
 .header-top-strip {
   background-color: var(--color-131921);
-  border-bottom: var(--color-3b4149);
+  border-bottom: 1px solid var(--color-3b4149);
 }
 
 .header-upper {
@@ -64,19 +70,31 @@ a {
 .header-bottom .dropdown button:focus {
   box-shadow: none;
 }
-.header-bottom .dropdown-menu{
+.header-bottom .dropdown-menu {
   background-color: var(--color-131921);
   width: 100%;
   transform: translate3d(0px, 57px, 0px) !important;
-} 
-.header-bottom .dropdown-item{
+}
+.header-bottom .dropdown-item {
   padding: 20px;
   margin-bottom: 3px;
   border-bottom: 1px solid var(--color-3b4149);
 }
-.header-bottom .dropdown-item{
+.header-bottom .dropdown-item {
   background-color: transparent;
   color: var(--color-fedb69);
 }
 
 /* Header Part End */
+
+/* Footer Part*/
+footer {
+  background-color: var(--color-232f3e);
+}
+footer:not(:first-child) {
+  border-top: 1px solid var(--color-3b4149);
+}
+footer .input-group-text {
+  background-color: var(--color-232f3e);
+  color: white;
+}
