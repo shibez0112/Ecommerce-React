@@ -49,7 +49,7 @@ const Header = () => {
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
                   <Link className="d-flex align-items-center gap-10 text-white">
-                    <img className="img-filter" src="images/compare.svg" alt="compare" />
+                    <img src="images/compare.svg" alt="compare" />
                     <p className="mb-0">
                       Compare <br /> Products
                     </p>
@@ -57,7 +57,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link className="d-flex align-items-center gap-10 text-white">
-                    <img className="img-filter" src="images/wishlist.svg" alt="wishlist" />
+                    <img src="images/wishlist.svg" alt="wishlist" />
                     <p className="mb-0">
                       Favourite <br /> wishlist
                     </p>
@@ -65,7 +65,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link className="d-flex align-items-center gap-10 text-white">
-                    <img className="img-filter" src="images/user.svg" alt="user" />
+                    <img src="images/user.svg" alt="user" />
                     <p className="mb-0">
                       Log in <br /> My Account
                     </p>
@@ -73,7 +73,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link className="d-flex align-items-center gap-10 text-white">
-                    <img className="img-filter" src="images/cart.svg" alt="cart" />
+                    <img src="images/cart.svg" alt="cart" />
                     <div className="d-flex flex-column gap-10">
                       <span className="badge bg-white text-dark">0</span>
                       <p className="mb-0">$ 500</p>
@@ -98,8 +98,15 @@ const Header = () => {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      <img className="img-filter" src="images/menu.svg" alt="" width={30} height={30}/>
-                      <span className="me-5 d-inline-block">Shop Categories</span>
+                      <img
+                        src="images/menu.svg"
+                        alt=""
+                        width={30}
+                        height={30}
+                      />
+                      <span className="me-5 d-inline-block">
+                        Shop Categories
+                      </span>
                     </button>
                     <div
                       class="dropdown-menu"

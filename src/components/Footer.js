@@ -11,7 +11,6 @@ const Footer = () => {
             <div className="col-5">
               <div className="footer-top-data d-flex gap-30 align-items-center">
                 <img
-                  className="img-filter"
                   src="images/newsletter.svg"
                   alt=""
                   height={30}
