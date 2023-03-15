@@ -213,6 +213,68 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className="famous-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/famous.png"
+                  className="img-fluid"
+                  alt="famous"
+                />
+                <div className="famous-content position-absolute">
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Series 7</h6>
+                  <p>From $399 or $16.62/mo. for 24 mo.*</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+                <div className="famous-card position-relative">
+                  <img
+                    src="images/famous-1.png"
+                    className="img-fluid"
+                    alt="famous"
+                  />
+                  <div className="famous-content position-absolute">
+                    <h5 className="text-dark">Studio Display</h5>
+                    <h6 className="text-dark">MacBook Pro 2033</h6>
+                    <p className="text-dark">27-inch 6K Retina Display</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-3">
+                <div className="famous-card position-relative">
+                  <img
+                    src="images/famous-2.png"
+                    className="img-fluid"
+                    alt="famous"
+                  />
+                  <div className="famous-content position-absolute">
+                    <h5 className="text-dark">Smartphones</h5>
+                    <h6 className="text-dark">iPhone 14 Pro Max</h6>
+                    <p className="text-dark">With triple camera. From $999 or $41.62/mo. For 24mo.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-3">
+                <div className="famous-card position-relative">
+                  <img
+                    src="images/famous-3.png"
+                    className="img-fluid"
+                    alt="famous"
+                  />
+                  <div className="famous-content position-absolute">
+                    <h5 className="text-dark">Home Speakers</h5>
+                    <h6 className="text-dark">HomePod Pro 2047</h6>
+                    <p className="text-dark">From $699 or $26.62/mo. for 24 mo.*</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
       <section className="special-wrapper py-5 home-wrapper-2">
         <div className="container">
           <div className="row">
@@ -235,12 +297,6 @@ const Home = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-2">
-              <div className="card"></div>
-            </div>
-            <div className="col-2">
-              <div className="card"></div>
-            </div>
             <ProductCard />
             <ProductCard />
             <ProductCard />
