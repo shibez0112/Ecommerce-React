@@ -322,7 +322,7 @@ footer .input-group-text {
 /* Product Card ends here */
 
 /* Special Product */
-.special-product-card{
+.special-product-card {
   padding: 10px;
   border-radius: 10px;
   background-color: white;
@@ -331,12 +331,12 @@ footer .input-group-text {
 /* Special Product ends here */
 
 /* Famous card */
-.famous-card .famous-content{
+.famous-card .famous-content {
   top: 10%;
   left: 5%;
 }
 
-.famous-card img{
+.famous-card img {
   border-radius: 10px;
 }
 
@@ -361,3 +361,40 @@ footer .input-group-text {
   color: white;
 }
 /* Famous card end here */
+
+/* Our Store */
+.filter-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.filter-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+}
+.filter-card ul,
+.filter-card .form-check-label {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: var(--color-777777);
+  cursor: pointer;
+}
+.filter-card .form-check-input:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.filter-card .form-check-input:checked {
+  background-color: var(--color-fedb69);
+}
+
+.sub-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 15px;
+}
+/* Our Store ends here */
