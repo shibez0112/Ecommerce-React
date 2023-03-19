@@ -13,6 +13,7 @@
   --color-ededed: #ededed;
   --color-777777: #777777;
   --color-1c1c1b: #1c1c1b;
+  --color-f2f2f2: #f2f2f2;
 }
 .section-heading {
   font-size: 26px;
@@ -420,5 +421,13 @@ footer .input-group-text {
 .filter-sort-grid{
   padding: 10px;
   background-color: white;
+  border-radius: 10px;
+}
+.grid img{
+  width: 35px;
+  height: 35px;
+  background-color: var(--color-f2f2f2);
+  padding: 8px;
+  border-radius: 3px;
 }
 /* Our Store ends here */

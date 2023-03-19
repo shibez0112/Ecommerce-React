@@ -7,13 +7,13 @@ const ProductCard = () => {
     <div className="col-3">
       <div className="product-card position-relative">
         <div className="wishlist-icon position-absolute">
-            <Link>
+          <Link>
             <img src="images/wish.svg" alt="wishlist" />
-            </Link>
+          </Link>
         </div>
         <div className="product-image">
-          <img src="images/watch.jpg" classsName="img-fluid" alt="product" />
-          <img src="images/watch-1.avif" classsName="img-fluid" alt="product" />
+          <img src="images/watch.jpg" className="img-fluid" alt="product" />
+          {/* <img src="images/watch-1.avif" classsName="img-fluid" alt="product" /> */}
         </div>
         <div className="product-details">
           <h6 className="brand">Havels</h6>
