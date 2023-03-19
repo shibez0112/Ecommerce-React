@@ -8,9 +8,7 @@ const ProductCard = (props) => {
   return (
     <>
       <div
-        className={`${
-          location.pathname === "/store" ? `gr-${grid}` : "col-3"
-        }`}
+        className={`${location.pathname === "/store" ? `gr-${grid}` : "col-3"}`}
       >
         <div className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
@@ -32,6 +30,11 @@ const ProductCard = (props) => {
               edit={false}
               activeColor="#ffd700"
             />
+            <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of pop
+            </p>
             <p className="price">$100$</p>
           </div>
           <div className="action-bar position-absolute">
