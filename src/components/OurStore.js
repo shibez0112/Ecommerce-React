@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import BreadCrumb from "./BreadCrumb";
 import Meta from "./Meta";
 import ReactStars from "react-rating-stars-component";
-import ProductCard from "./ProductCard"
+import ProductCard from "./ProductCard";
 
 const OurStore = () => {
   const [grid, setGrid] = useState(4);
   const gridSetter = (i) => {
     setGrid(i);
   };
-  
+
   return (
     <>
       <Meta title={"OurStore"} />
@@ -224,7 +224,7 @@ const OurStore = () => {
                     <div className="d-flex gap-10 align-items-center grid">
                       <img
                         onClick={() => {
-                          gridSetter(4);
+                          gridSetter(3);
                         }}
                         src="images/gr4.svg"
                         className="d-block img-fluid"
@@ -232,7 +232,7 @@ const OurStore = () => {
                       />
                       <img
                         onClick={() => {
-                          gridSetter(3);
+                          gridSetter(4);
                         }}
                         src="images/gr3.svg"
                         className="d-block img-fluid"
@@ -240,7 +240,7 @@ const OurStore = () => {
                       />
                       <img
                         onClick={() => {
-                          gridSetter(2);
+                          gridSetter(6);
                         }}
                         src="images/gr2.svg"
                         className="d-block img-fluid"
@@ -248,7 +248,7 @@ const OurStore = () => {
                       />
                       <img
                         onClick={() => {
-                          gridSetter(1);
+                          gridSetter(12);
                         }}
                         src="images/gr.svg"
                         className="d-block img-fluid"
@@ -259,7 +259,10 @@ const OurStore = () => {
                 </div>
               </div>
               <div className="products-list pb-5">
-                <ProductCard grid={grid} />
+                <div className="d-flex gap-10 flex-wrap">
+                  <ProductCard grid={grid} />
+                  <ProductCard grid={grid} />
+                </div>
               </div>
             </div>
           </div>
