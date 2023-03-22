@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import BreadCrumb from "./BreadCrumb";
-import Meta from "./Meta";
+import BreadCrumb from "../components/BreadCrumb";
+import Meta from "../components/Meta";
 import ReactStars from "react-rating-stars-component";
-import ProductCard from "./ProductCard";
+import ProductCard from "../components/ProductCard";
 
 const OurStore = () => {
   const [grid, setGrid] = useState(4);
